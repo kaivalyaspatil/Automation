@@ -33,10 +33,10 @@ public class Traversing_Through_Elements {
 		
 		// need to confirm
 	// child to parent travers	
-	//driver.findElement(By.xpath("//li[@id='tablist1-tab1']/parent::li")).click();
+	System.out.print(driver.findElement(By.xpath("//li[@id='tablist1-tab1']/parent::li")).getAttribute("role"));
 		
 		// using text available on screen 
-		driver.findElement(By.xpath("//*[text()=' Selenium ']")).click();	
+	//	driver.findElement(By.xpath("//*[text()=' Selenium ']")).click();	
 		
 		
 		
